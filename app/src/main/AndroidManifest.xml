@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".secound" />
         <activity android:name=".tem" />
-        <activity android:name=".temCal"></activity>
+        <activity android:name=".temCal" />
+        <activity android:name=".mvc" />
+        <activity android:name=".mvc2"></activity>
     </application>
 
 </manifest>

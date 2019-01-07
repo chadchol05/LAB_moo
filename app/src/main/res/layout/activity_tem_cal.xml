@@ -11,7 +11,7 @@
         android:id="@+id/txtresult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/ttt1"
+        android:textColor="@color/b"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,15 +84,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ค่าที่ได้"
-        android:textColor="@color/ttt1"
+        android:textColor="@color/b"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605" />
+        app:layout_constraintVertical_bias="0.586" />
 
     <TextView
         android:id="@+id/txtget"
@@ -107,4 +107,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.329" />
+
+    <Button
+        android:id="@+id/butbk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="คำนวนใหม่"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtview2"
+        app:layout_constraintVertical_bias="0.921" />
+
 </android.support.constraint.ConstraintLayout>

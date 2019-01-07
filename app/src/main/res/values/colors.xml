@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="text">#0d00ff</color>
-    <color name="ttt1">#000000</color>
+    <color name="ttt1">#b005ff</color>
+    <color name="b">#000000</color>
+    <color name="text_color">#48ffda</color>
 </resources>
